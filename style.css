@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #1f1f1f;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background: linear-gradient(135deg, #9b4de4, #9517bb);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+main .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: inherit;
+  width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .card-container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 460px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 6px;
+  -webkit-box-shadow: 10px 10px 10px #1f1f1f;
+          box-shadow: 10px 10px 10px #1f1f1f;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+main .card-container .card .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100px;
+  width: inherit;
+  color: #1f1f1f;
+}
+
+main .card-container .card .title h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+main .card-container .card .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: inherit;
+  padding: 10px;
+}
+
+main .card-container .card .text p {
+  font-size: 1.1rem;
+  color: #1f1f1f;
+  line-height: 1.5;
+}
+
+main .card-container .card .button {
+  height: 50px;
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .card-container .card .button button {
+  height: 40px;
+  width: 140px;
+  background-color: #1f1f1f;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: .5s linear;
+  transition: .5s linear;
+  cursor: pointer;
+}
+
+main .card-container .card .button button:hover {
+  -webkit-transform: translate3d(0, -10px, 0);
+          transform: translate3d(0, -10px, 0);
+  -webkit-transition: .5s linear;
+  transition: .5s linear;
+}
+
+footer {
+  height: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer span {
+  color: white;
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=style.css.map */
